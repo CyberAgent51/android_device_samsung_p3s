@@ -17,12 +17,12 @@
 include device/samsung/universal2100-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary configuration
-include vendor/samsung/o1s/BoardConfigVendor.mk
+include vendor/samsung/p3s/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/o1s
+DEVICE_PATH := device/samsung/p3s
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 515

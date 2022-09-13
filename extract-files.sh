@@ -29,7 +29,7 @@ fi
 
 set -e
 
-export DEVICE=o1s
+export DEVICE=p3s
 export DEVICE_COMMON=universal2100-common
 export VENDOR=samsung
 
